@@ -1,0 +1,96 @@
+.general{
+    font-family: 'Karantina', cursive;
+    display: flex;
+    flex-direction: column;
+}
+.calltoaction{
+   font-size: 35px;
+   position: relative;
+   max-height: 600px;
+   margin: 10px 20px;
+}
+.btn-order{
+    border-radius: 20px;
+    color:white;
+    background-color: red;
+    font-size: 6vw;
+    padding: 20px;
+    font-family: 'Karantina', cursive;
+}
+.company{
+    font-size: 10vw;
+    text-align: center;
+}
+.delivery{
+    margin: 20px;
+    text-shadow: 0 3px 9px black;
+    font-size: 7vw;
+    word-wrap: none;
+}
+.order{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+.titlepic{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.bgimage{
+    width: 100%;
+    height: auto;
+    opacity: 0.44;
+    border-radius: 20px;
+    max-height: 600px;    
+}
+.flexdeals{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+.images{
+    height: auto;
+    max-height: 200px;
+    border-radius: 20px;
+}
+.deals{
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 3px 9px 0 rgba(0,0,0,0.3);
+    transition:0.2s;
+    margin: 10px 20px;
+}
+.deals:hover{
+    box-shadow: 0 6px 18px 0 rgba(0,0,0,0.3);
+}
+.description{
+    padding: 20px;
+    font-size: 20px;
+}
+.headerdeals{
+    text-align: center;
+    font-size: 3em;
+    color: red;
+}
+.location{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width:100%;
+    height:auto;
+    align-items:center;
+    justify-content: center;
+}
